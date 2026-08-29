@@ -38,7 +38,7 @@ Most projects below are **solo developed**; team collaborations are noted indivi
 - Built full ROS 2 stack: custom `ros2_control` hardware interface, S-curve trajectory generator, URDF/Xacro model with STL meshes, and calibration verification script.
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Motor Control</div><video autoplay loop muted playsinline preload="metadata" aria-label="Dual Robstride RS03 motor synchronous control demonstration"><source src="images/dual_motor_sync.mp4" type="video/mp4"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Motor Control</div><video width="100%" autoplay loop muted playsinline preload="metadata" aria-label="Dual Robstride RS03 motor synchronous control demonstration"><source src="images/dual_motor_sync.mp4" type="video/mp4"></video></div></div>
 <div class='paper-box-text' markdown="1">
 **Dual Motor Synchronous Control for High-Load Robotic Mechanisms** · *Aug. 2026*
 **Qinnan Jiang** (Solo)
@@ -58,7 +58,7 @@ Most projects below are **solo developed**; team collaborations are noted indivi
 - Deployed the entire ROS 2 stack in **Docker** on **NVIDIA Jetson AGX Orin** with GPU passthrough; USB devices passed through with `--device` flags and stable udev symlinks.
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Reinforcement Learning</div><video autoplay loop muted playsinline preload="metadata" aria-label="Quadruped-wheeled robot RL locomotion training in Isaac Gym"><source src="images/quadruped_rl.mp4" type="video/mp4"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Reinforcement Learning</div><video width="100%" autoplay loop muted playsinline preload="metadata" aria-label="Quadruped-wheeled robot RL locomotion training in Isaac Gym"><source src="images/quadruped_rl.mp4" type="video/mp4"></video></div></div>
 <div class='paper-box-text' markdown="1">
 **RL Locomotion for a Custom Quadruped-Wheeled Robot (PPO, Isaac Gym)** · *2025 – Present (Ongoing)*
 **Qinnan Jiang** (Solo)
