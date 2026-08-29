@@ -17,8 +17,6 @@ Beyond real-robot systems, I am gradually expanding into **Isaac Sim / Isaac Lab
 
 I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at the **University of Bristol** (2024–2027), on track for First Class Honours with an average of 80+ and ranking in the **top 1%** of my cohort.
 
-Most projects below are **solo developed**; team collaborations are noted individually.
-
 [GitHub](https://github.com/nanj-robotics) · [LinkedIn](https://www.linkedin.com/in/qinnan-j-a13714355/)
 
 # 🔥 News
@@ -76,8 +74,7 @@ Most projects below are **solo developed**; team collaborations are noted indivi
 </div></div>
 
 # 🏅 Honors and Awards
-- *2024 – Present*: **Top 1%** in EEE cohort, University of Bristol.
-- *2024 – Present*: On track for **First Class Honours** (average 80+), University of Bristol.
+- *2024 – Present*: **Top 1%** in EEE cohort, on track for **First Class Honours** (average 80+), University of Bristol.
 
 # 📖 Educations
-- *Sep. 2024 – Jun. 2027 (expected)*: **B.Eng. in Electrical and Electronic Engineering**, University of Bristol, Bristol, UK. **First Class Honours track (avg 80+), Top 1% in cohort.**
+- *Sep. 2024 – Jun. 2027 (expected)*: **B.Eng. in Electrical and Electronic Engineering**, University of Bristol, Bristol, UK. **First Class Honours track (avg 80+).**
