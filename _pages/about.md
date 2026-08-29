@@ -37,15 +37,6 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 - Developed **zero-torque mode** with Pinocchio-based gravity compensation for kinesthetic teaching and VLA data collection.
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Motor Control</div><video width="100%" style="min-height: 240px; object-fit: cover;" autoplay loop muted playsinline preload="metadata" aria-label="Dual Robstride RS03 motor synchronous control demonstration"><source src="images/dual_motor_sync.mp4" type="video/mp4"></video></div></div>
-<div class='paper-box-text' markdown="1">
-**Dual Motor Synchronous Control for High-Load Robotic Mechanisms** · *Aug. 2026*
-**Qinnan Jiang**
-- Built a ROS 2 C++ package for precise mirrored synchronization of two **Robstride RS03** motors over CAN bus for high-load dual-motor joints.
-- Implemented **cosine trajectory planning** with 500 Hz CAN transmission in MIT PD torque mode, achieving **0.01°** synchronization error.
-- Eliminated torque interruption for seamless motion sequences; fully configurable via command-line arguments.
-</div></div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ROS 2 / Navigation</div><img src='images/geni_rover.png' alt="GeniRover autonomous navigation differential-drive mobile robot" width="100%" style="height: 230px; object-fit: cover;"></div></div>
 <div class='paper-box-text' markdown="1">
 **Autonomous Navigation & Obstacle-Avoidance Differential-Drive Mobile Robot (GeniRover)** · *Jun. 2026 – Jul. 2026*
@@ -62,6 +53,15 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 - Training a custom **quadruped-wheeled robot** for robust locomotion using **PPO** in **NVIDIA Isaac Gym**, targeting walking, running, and jumping via sim2real transfer.
 - **Full-stack solo development**: SolidWorks assembly modeling → URDF generation → RL training pipeline design → sim2real deployment.
 - Long-term goal: mount two robotic arms for mobile manipulation. Ongoing since 2025, sim2real transfer in progress.
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Motor Control</div><video width="100%" style="min-height: 240px; object-fit: cover;" autoplay loop muted playsinline preload="metadata" aria-label="Dual Robstride RS03 motor synchronous control demonstration"><source src="images/dual_motor_sync.mp4" type="video/mp4"></video></div></div>
+<div class='paper-box-text' markdown="1">
+**Dual Motor Synchronous Control for High-Load Robotic Mechanisms** · *Aug. 2026*
+**Qinnan Jiang**
+- Built a ROS 2 C++ package for precise mirrored synchronization of two **Robstride RS03** motors over CAN bus for high-load dual-motor joints.
+- Implemented **cosine trajectory planning** with 500 Hz CAN transmission in MIT PD torque mode, achieving **0.01°** synchronization error.
+- Eliminated torque interruption for seamless motion sequences; fully configurable via command-line arguments.
 </div></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">FPGA</div><img src='images/fpga_peak_detection.jpg' alt="FPGA peak detection prototyping on Artix-7" width="100%"></div></div>
