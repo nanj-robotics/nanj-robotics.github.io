@@ -11,7 +11,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # Robotics & Autonomous Systems Engineer
 
-I am a robotics engineer focused on **embodied AI**, working across mobile navigation, robot manipulation, and low-level motor control. My projects are built on the **ROS 2** ecosystem (**SLAM / Nav2**, **MoveIt 2**), with visual perception (**YOLOv11-Seg**, **FoundationPose**) and reinforcement learning (**Isaac Gym**, **PPO**) for locomotion.
+I am a robotics engineer focused on **embodied AI**, working across mobile navigation, robot manipulation, and low-level motor control. My projects are built on the **ROS 2** (**SLAM / Nav2**, **MoveIt 2**), with visual perception (**YOLOv11-Seg**, **FoundationPose**) and reinforcement learning (**Isaac Gym**, **PPO**) for locomotion.
 
 Beyond real-robot systems, I am gradually expanding into **Isaac Sim / Isaac Lab**, world models, and vision-language-action (VLA) models, working toward broader and more generalizable embodied intelligence.
 
@@ -33,7 +33,7 @@ Most projects below are **solo developed**; team collaborations are noted indivi
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Robot Arm</div><img src='images/geni_craner.jpg' alt="GeniCraner 7-DOF robot arm with vision-based grasping" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **7-DOF Robot Arm with YOLOv11-Seg + FoundationPose Vision-Based Grasping** · *Jul. 2026 – Aug. 2026*
-**Qinnan Jiang** (Solo)
+**Qinnan Jiang**
 - Built a 7-DOF magnetic-grasping robot arm with 7 **Robstride** motors over CAN bus, from URDF modeling to `ros2_control` hardware interface.
 - Implemented vision-based grasping with **YOLOv11-Seg** + **FoundationPose** 6D pose estimation, eye-to-hand calibration, and **MoveIt 2** motion planning.
 - Developed **zero-torque mode** with Pinocchio-based gravity compensation for kinesthetic teaching and VLA data collection.
@@ -42,16 +42,16 @@ Most projects below are **solo developed**; team collaborations are noted indivi
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Motor Control</div><video width="100%" style="min-height: 240px; object-fit: cover;" autoplay loop muted playsinline preload="metadata" aria-label="Dual Robstride RS03 motor synchronous control demonstration"><source src="images/dual_motor_sync.mp4" type="video/mp4"></video></div></div>
 <div class='paper-box-text' markdown="1">
 **Dual Motor Synchronous Control for High-Load Robotic Mechanisms** · *Aug. 2026*
-**Qinnan Jiang** (Solo)
+**Qinnan Jiang**
 - Built a ROS 2 C++ package for precise mirrored synchronization of two **Robstride RS03** motors over CAN bus for high-load dual-motor joints.
 - Implemented **cosine trajectory planning** with 500 Hz CAN transmission in MIT PD torque mode, achieving **0.01°** synchronization error.
 - Eliminated torque interruption for seamless motion sequences; fully configurable via command-line arguments.
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ROS 2 / Navigation</div><img src='images/geni_rover.png' alt="GeniRover autonomous navigation differential-drive mobile robot" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ROS 2 / Navigation</div><img src='images/geni_rover.png' alt="GeniRover autonomous navigation differential-drive mobile robot" width="100%" style="height: 230px; object-fit: cover;"></div></div>
 <div class='paper-box-text' markdown="1">
 **Autonomous Navigation & Obstacle-Avoidance Differential-Drive Mobile Robot (GeniRover)** · *Jun. 2026 – Jul. 2026*
-**Qinnan Jiang** (Solo)
+**Qinnan Jiang**
 - Built a four-wheel differential-drive robot with 2D LiDAR, RGB-D camera, IMU, and CAN-controlled hub motors.
 - Implemented full autonomy stack: **SLAM Toolbox** mapping, **Nav2** navigation (AMCL + DWB), and **EKF** fusion of wheel odometry with IMU for robust localization.
 - Deployed on **NVIDIA Jetson AGX Orin** via Docker with GPU passthrough; achieved stable autonomous navigation with real-time obstacle avoidance.
@@ -60,7 +60,7 @@ Most projects below are **solo developed**; team collaborations are noted indivi
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Reinforcement Learning</div><video width="100%" autoplay loop muted playsinline preload="metadata" aria-label="Quadruped-wheeled robot RL locomotion training in Isaac Gym"><source src="images/quadruped_rl.mp4" type="video/mp4"></video></div></div>
 <div class='paper-box-text' markdown="1">
 **RL Locomotion for a Custom Quadruped-Wheeled Robot (PPO, Isaac Gym)** · *2025 – Present (Ongoing)*
-**Qinnan Jiang** (Solo)
+**Qinnan Jiang**
 - Training a custom **quadruped-wheeled robot** for robust locomotion using **PPO** in **NVIDIA Isaac Gym**, targeting walking, running, and jumping via sim2real transfer.
 - **Full-stack solo development**: SolidWorks assembly modeling → URDF generation → RL training pipeline design → sim2real deployment.
 - Long-term goal: mount two robotic arms for mobile manipulation. Ongoing since 2025, sim2real transfer in progress.
