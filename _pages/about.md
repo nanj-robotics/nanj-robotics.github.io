@@ -69,7 +69,7 @@ Most projects below are **solo developed**; team collaborations are noted indivi
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">FPGA</div><img src='images/fpga_peak_detection.jpg' alt="FPGA peak detection prototyping on Artix-7" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **FPGA Peak Detection Prototyping (Artix-7, VHDL)** · *Jan. 2026 – Apr. 2026*
-**Qinnan Jiang** (5-member team, Command Processor)
+**Qinnan Jiang**, Sangwon, Yu Chen, Kyan Xu, Yutong Shi
 - Designed a **peak detection system** for signed numbers on **Xilinx Artix-7 FPGA** using **VHDL** with RTL-coding style.
 - Developed an **FSM controller** and two-way handshaking protocol to synchronize high-speed FPGA logic with UART communication, ensuring zero data loss.
 - 5-member team: I co-developed the Command Processor module (3 members), 2 members handled the Data Processor.
