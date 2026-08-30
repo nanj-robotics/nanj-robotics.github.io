@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "Robotics & Autonomous Systems Engineer focused on embodied AI — robot manipulation, mobile navigation, motor control, and RL locomotion."
+excerpt: "Robotics & Autonomous Systems Engineer focused on embodied AI — robot manipulation, mobile navigation, perception, and robot learning."
 author_profile: true
 redirect_from: 
   - /about/
