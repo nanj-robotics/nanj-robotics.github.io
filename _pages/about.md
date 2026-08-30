@@ -24,7 +24,7 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 <div class='paper-box-text' markdown="1">
 **7-DOF Robot Arm with YOLOv11-Seg + FoundationPose Vision-Based Grasping (GeniCraner)** · *Jul. 2026 – Aug. 2026*
 **Qinnan Jiang**
-- Built a 7-DOF magnetic-grasping robot arm with 7 **Robstride** motors over CAN bus, from URDF modeling to `ros2_control` hardware interface.
+- Built a 7-DOF magnetic-grasping robot arm with 7 **Robstride** motors over CAN bus, from URDF modeling to **ros2_control** hardware interface.
 - Implemented vision-based grasping with **YOLOv11-Seg** + **FoundationPose** 6D pose estimation, eye-to-hand calibration, and **MoveIt 2** motion planning.
 - Developed **zero-torque mode** with Pinocchio-based gravity compensation for kinesthetic teaching and VLA data collection.
 </div></div>
