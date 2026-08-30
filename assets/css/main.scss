@@ -41,15 +41,25 @@
     border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
     
-    .paper-box-image{
+        .paper-box-image{
         justify-content: center;
         display: flex;
         width: 100%;
         order: 2;
         img {
             max-width: 400px;
+            width: 100%;
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
+            display: block;
+        }
+        video {
+            max-width: 400px;
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            box-shadow: 3px 3px 6px #888;
+            display: block;
         }
     }
     
