@@ -11,7 +11,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # Robotics & Autonomous Systems Engineer
 
-I am a robotics engineer focused on **embodied AI**, working across mobile navigation, robot manipulation, and low-level motor control. My projects are built on the **ROS 2** (**SLAM / Nav2**, **MoveIt 2**), with visual perception (**YOLOv11-Seg**, **FoundationPose**) and reinforcement learning (**Isaac Gym**, **PPO**) for locomotion.
+I am a robotics engineer focused on **embodied AI**, working across mobile navigation, robot manipulation, visual perception and reinforcement learning. My projects are built on the **ROS 2** (**SLAM / Nav2**, **MoveIt 2**), with visual perception (**YOLOv11-Seg**, **FoundationPose**) and reinforcement learning (**Isaac Gym**, **PPO**) for locomotion.
 
 Beyond real-robot systems, I am gradually expanding into **Isaac Sim / Isaac Lab**, world models, and vision-language-action (VLA) models, working toward broader and more generalizable embodied intelligence.
 
@@ -28,7 +28,7 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 
 # 📝 Selected Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Robot Arm</div><img src='images/geni_craner.jpg' alt="GeniCraner 7-DOF robot arm with vision-based grasping" width="100%" style="height: 230px; object-fit: cover;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Robot Arm</div><img src='images/geni_craner.jpg' alt="GeniCraner 7-DOF robot arm with vision-based grasping" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **7-DOF Robot Arm with YOLOv11-Seg + FoundationPose Vision-Based Grasping (GeniCraner)** · *Jul. 2026 – Aug. 2026*
 
