@@ -28,7 +28,7 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 
 # 📝 Selected Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Robot Arm</div><img src='images/geni_craner.jpg' alt="GeniCraner 7-DOF robot arm with vision-based grasping" width="100%" style="height: 230px; object-fit: cover;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Robot Arm</div><img src='images/geni_craner.jpg' alt="GeniCraner 7-DOF robot arm with vision-based grasping" style="width: 100%; height: 230px; object-fit: cover; display: block; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);"></div></div>
 <div class='paper-box-text' markdown="1">
 **7-DOF Robot Arm with YOLOv11-Seg + FoundationPose Vision-Based Grasping (GeniCraner)** · *Jul. 2026 – Aug. 2026*
 
@@ -39,7 +39,7 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 - Developed **zero-torque mode** with Pinocchio-based gravity compensation for kinesthetic teaching and VLA data collection.
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ROS 2 / Navigation</div><img src='images/geni_rover.png' alt="GeniRover autonomous navigation differential-drive mobile robot" width="100%" style="height: 230px; object-fit: cover;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ROS 2 / Navigation</div><img src='images/geni_rover.png' alt="GeniRover autonomous navigation differential-drive mobile robot" style="width: 100%; height: 230px; object-fit: cover; display: block; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);"></div></div>
 <div class='paper-box-text' markdown="1">
 **Autonomous Navigation & Obstacle-Avoidance Differential-Drive Mobile Robot (GeniRover)** · *Jun. 2026 – Jul. 2026*
 
@@ -50,7 +50,7 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 - Deployed on **NVIDIA Jetson AGX Orin** via Docker with GPU passthrough; achieved stable autonomous navigation with real-time obstacle avoidance.
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Reinforcement Learning</div><video width="100%" style="height: 230px; object-fit: cover; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);" autoplay loop muted playsinline preload="metadata" aria-label="Quadruped-wheeled robot RL locomotion training in Isaac Gym"><source src="images/quadruped_rl.mp4" type="video/mp4"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Reinforcement Learning</div><video style="width: 100%; height: 230px; object-fit: cover; display: block; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);" autoplay loop muted playsinline preload="metadata" aria-label="Quadruped-wheeled robot RL locomotion training in Isaac Gym"><source src="images/quadruped_rl.mp4" type="video/mp4"></video></div></div>
 <div class='paper-box-text' markdown="1">
 **RL Locomotion for a Custom Quadruped-Wheeled Robot (PPO, Isaac Gym)** · *2025 – Present (Ongoing)*
 
@@ -61,7 +61,7 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 - Long-term goal: mount two robotic arms for mobile manipulation; next step: migrate the training pipeline to **Isaac Lab**. Ongoing since 2025, sim2real transfer in progress.
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Motor Control</div><video width="100%" style="height: 230px; object-fit: cover; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);" autoplay loop muted playsinline preload="metadata" aria-label="Dual Robstride RS03 motor synchronous control demonstration"><source src="images/dual_motor_sync.mp4" type="video/mp4"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Motor Control</div><video style="width: 100%; height: 230px; object-fit: cover; display: block; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);" autoplay loop muted playsinline preload="metadata" aria-label="Dual Robstride RS03 motor synchronous control demonstration"><source src="images/dual_motor_sync.mp4" type="video/mp4"></video></div></div>
 <div class='paper-box-text' markdown="1">
 **Dual Motor Synchronous Control for High-Load Robotic Mechanisms** · *Aug. 2026*
 
@@ -72,7 +72,7 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 - Eliminated torque interruption for seamless motion sequences; fully configurable via command-line arguments.
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">FPGA</div><img src='images/fpga_peak_detection.jpg' alt="FPGA peak detection prototyping on Artix-7" width="100%" style="height: 230px; object-fit: cover;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">FPGA</div><img src='images/fpga_peak_detection.jpg' alt="FPGA peak detection prototyping on Artix-7" style="width: 100%; height: 230px; object-fit: cover; display: block; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);"></div></div>
 <div class='paper-box-text' markdown="1">
 **FPGA Peak Detection Prototyping (Artix-7, VHDL)** · *Jan. 2026 – Apr. 2026*
 
