@@ -34,7 +34,7 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 
 **Qinnan Jiang**
 
-- Built a 7-DOF magnetic-grasping robot arm with 7 **Robstride** motors over CAN bus, from URDF modeling to `ros2_control` hardware interface.
+- Built a 7-DOF magnetic-grasping robot arm with 7 **Robstride** motors over CAN bus, from URDF modeling to **ros2_control** hardware interface.
 - Implemented vision-based grasping with **YOLOv11-Seg** + **FoundationPose** 6D pose estimation, eye-to-hand calibration, and **MoveIt 2** motion planning.
 - Developed **zero-torque mode** with Pinocchio-based gravity compensation for kinesthetic teaching and VLA data collection.
 </div></div>
