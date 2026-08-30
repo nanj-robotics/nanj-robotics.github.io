@@ -13,12 +13,14 @@ I am a robotics engineer focused on **embodied AI**, working across mobile navig
 Beyond real-robot systems, I am gradually expanding into **Isaac Sim / Isaac Lab**, world models, and vision-language-action (VLA) models, working toward broader and more generalizable embodied intelligence.
 I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at the **University of Bristol** (2024–2027), on track for First Class Honours with an average of 80+ and ranking in the **top 1%** of my cohort.
 [GitHub](https://github.com/nanj-robotics) · [LinkedIn](https://www.linkedin.com/in/qinnan-j-a13714355/)
+
 # 🔥 News
 - *2026.08*: Completed **GeniCraner** — 7-DOF robot arm with YOLOv11-Seg + FoundationPose vision-based grasping, including zero-torque mode for VLA data collection.
 - *2026.08*: Released **dual_motor_sync** — dual Robstride RS03 motor synchronous control over CAN, achieving **0.01°** synchronization error.
 - *2026.07*: Completed **GeniRover** — autonomous navigation & obstacle-avoidance differential-drive mobile robot, deployed on NVIDIA Jetson AGX Orin.
 - *2026.04*: Completed FPGA peak detection prototyping project at the University of Bristol.
 - *2024.09*: Enrolled in the University of Bristol, Department of Electrical and Electronic Engineering.
+
 # 📝 Selected Projects
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Robot Arm</div><img src='images/geni_craner.jpg' alt="GeniCraner 7-DOF robot arm with vision-based grasping" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -60,6 +62,7 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 - Developed an **FSM controller** and two-way handshaking protocol to synchronize high-speed FPGA logic with UART communication, ensuring zero data loss.
 - 5-member team: I co-developed the Command Processor module (3 members), 2 members handled the Data Processor.
 </div></div>
+
 # 🏅 Honors and Awards
 - *2024 – Present*: **Top 1%** in EEE cohort, on track for **First Class Honours** (average 80+), University of Bristol.
 
