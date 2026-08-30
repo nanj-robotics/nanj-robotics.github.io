@@ -1,6 +1,5 @@
 ---
 ---
-
 /*
  *    Minimal Mistakes Jekyll Theme
  *
@@ -9,15 +8,12 @@
  *  - https://twitter.com/mmistakes
  *
 */
-
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
-
 @import "reset";
 @import "base";
-
 @import "utilities";
 @import "animations";
 @import "tables";
@@ -27,19 +23,15 @@
 @import "navigation";
 @import "footer";
 @import "syntax";
-
 @import "forms";
-
 @import "page";
 @import "archive";
 @import "sidebar";
-
 @import "vendor/font-awesome/fontawesome";
 @import "vendor/font-awesome/solid";
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
-
 .paper-box {
     display: flex;
     justify-content: left;
@@ -54,9 +46,8 @@
         display: flex;
         width: 100%;
         order: 2;
-        img, video {
+        img {
             max-width: 400px;
-            width: 100%;
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
         }
@@ -83,8 +74,6 @@
         }
     }
 }
-
-
 $scroll_offset : 2em;
 h1:before, .anchor:before { 
     content: ''; 
@@ -94,7 +83,6 @@ h1:before, .anchor:before {
     height: $scroll_offset; 
     margin-top: -$scroll_offset;
 }
-
 .badge {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -105,3 +93,4 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+怎么改
