@@ -19,7 +19,7 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 - *2026.08*: Released **dual_motor_sync** — dual Robstride RS03 motor synchronous control over CAN, achieving **0.01°** synchronization error.
 - *2026.07*: Completed **GeniRover** — autonomous navigation & obstacle-avoidance differential-drive mobile robot, deployed on NVIDIA Jetson AGX Orin.
 - *2026.04*: Completed FPGA peak detection prototyping project at the University of Bristol.
-- *2024.09*: Enrolled in the University of Bristol, Department of Electrical and Electronic Engineering.
+- *2024.09*: Enrolled in the University of Bristol, School of Electrical, Electronic and Mechanical Engineering.
 
 # 📝 Selected Projects
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Robot Arm</div><img src='images/geni_craner.jpg' alt="GeniCraner 7-DOF robot arm with vision-based grasping" width="100%"></div></div>
