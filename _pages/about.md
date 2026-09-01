@@ -39,10 +39,9 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 
 **Qinnan Jiang**
 - Custom differential‑drive mobile robot supporting in‑place rotation; hardware includes CAN‑bus hub motors, 2D LiDAR, RGB‑D camera, IMU and **GNSS‑RTK** module, deployed on **NVIDIA Jetson AGX Orin**.
-- Implemented complete ROS2 navigation stack: **SLAM Toolbox** mapping, Nav2 with AMCL localization, and **MPPI** as local planner. Adopted `twist‑mux` for multi‑source velocity arbitration among joystick, navigation stack and external topics.
+- Implemented complete ROS2 navigation stack: **SLAM Toolbox** mapping, Nav2 with AMCL localization, and **MPPI** as local planner. 
 - Fused wheel odometry, IMU and RTK pose data through **robot_localization EKF** to generate stable robot base state estimation.
 - Conducted iterative field tests in outdoor unstructured environments, obtained promising real‑world navigation performance. Supports manual tele‑op, map‑based autonomous navigation and dynamic obstacle avoidance.
-- Fully parameterized URDF/Xacro, ros2_control hardware driver and complete launch system for real‑robot field deployment.
 </div></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Reinforcement Learning</div><video autoplay loop muted playsinline preload="metadata" aria-label="Quadruped‑wheeled robot RL locomotion training in Isaac Gym"><source src="images/quadruped_rl.mp4" type="video/mp4"></video></div></div>
