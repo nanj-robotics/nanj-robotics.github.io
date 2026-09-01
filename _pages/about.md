@@ -18,7 +18,7 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 - *2026.09*: Completed **RoboMantis** — Dual 7‑DOF robotic arms with YOLOv11‑Seg + FoundationPose vision‑based grasping, zero‑torque gravity‑compensated mode for VLA data collection.
 - *2026.08*: Completed **GeniCraner** — 7‑DOF robot arm with YOLOv11‑Seg + FoundationPose vision‑based grasping, including zero‑torque mode for VLA data collection.
 - *2026.08*: Released **dual_motor_sync** — dual Robstride RS03 motor synchronous control over CAN, achieving **0.01°** synchronization error.
-- *2026.07*: Completed **GeniRover** — autonomous navigation & obstacle‑avoidance differential‑drive mobile robot, deployed on NVIDIA Jetson AGX Orin.
+- *2026.07*: Completed **GeniRover** — differential‑drive mobile robot with GNSS‑RTK, MPPI local planner, iteratively field‑tested in outdoor environments with promising real‑world navigation results, deployed on NVIDIA Jetson AGX Orin.
 - *2026.04*: Completed FPGA peak detection prototyping project at the University of Bristol.
 - *2024.09*: Enrolled in the University of Bristol, School of Electrical, Electronic and Mechanical Engineering.
 
@@ -29,18 +29,20 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 
 **Qinnan Jiang**
 - Built a dual 7‑DOF magnetic‑grasping robotic arm platform with Robstride series motors over CAN bus, including dual‑arm URDF/Xacro modeling and separated **ros2_control** hardware interfaces for left and right manipulator.
-- Implemented vision‑based grasping pipeline: **YOLOv11‑Seg** instance segmentation + **FoundationPose** 6D object pose estimation, hand‑eye calibration for fixed external RGB‑D camera.
+- Implemented vision‑based grasping pipeline: **YOLOv11‑Seg** instance segmentation + **FoundationPose** 6D object pose estimation, `eye‑on‑base` hand‑eye calibration for fixed external RGB‑D camera.
 - Deployed coordinated dual‑arm motion planning via **MoveIt 2**, developed independent zero‑torque gravity‑compensated controller for each arm supporting kinesthetic teaching and VLA dataset collection.
 </div></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ROS 2 / Navigation</div><img src='images/geni_rover.jpg' alt="GeniRover autonomous navigation differential‑drive mobile robot" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-**Autonomous Navigation & Obstacle‑Avoidance Differential‑Drive Mobile Robot (GeniRover)** · *Jun. 2026 – Jul. 2026*
+**Autonomous Navigation Differential‑Drive Mobile Robot (GeniRover)** · *Jun. 2026 – Jul. 2026*
 
 **Qinnan Jiang**
-- Built a four‑wheel differential‑drive robot with 2D LiDAR, RGB‑D camera, IMU, and CAN‑controlled hub motors.
-- Implemented full autonomy stack: **SLAM Toolbox** mapping, **Nav2** navigation (AMCL + DWB), and **EKF** fusion of wheel odometry with IMU for robust localization.
-- Deployed on **NVIDIA Jetson AGX Orin** via Docker with GPU passthrough; achieved stable autonomous navigation with real‑time obstacle avoidance.
+- Custom differential‑drive mobile robot supporting in‑place rotation; hardware includes CAN‑bus hub motors, 2D LiDAR, RGB‑D camera, IMU and **GNSS‑RTK** module, deployed on **NVIDIA Jetson AGX Orin**.
+- Implemented complete ROS2 navigation stack: **SLAM Toolbox** mapping, Nav2 with AMCL localization, and **MPPI** as local planner. Adopted `twist‑mux` for multi‑source velocity arbitration among joystick, navigation stack and external topics.
+- Fused wheel odometry, IMU and RTK pose data through **robot_localization EKF** to generate stable robot base state estimation.
+- Conducted iterative field tests in outdoor unstructured environments, obtained promising real‑world navigation performance. Supports manual tele‑op, map‑based autonomous navigation and dynamic obstacle avoidance.
+- Fully parameterized URDF/Xacro, ros2_control hardware driver and complete launch system for real‑robot field deployment.
 </div></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Reinforcement Learning</div><video autoplay loop muted playsinline preload="metadata" aria-label="Quadruped‑wheeled robot RL locomotion training in Isaac Gym"><source src="images/quadruped_rl.mp4" type="video/mp4"></video></div></div>
