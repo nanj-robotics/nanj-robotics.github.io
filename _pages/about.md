@@ -25,7 +25,7 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 # 📝 Selected Projects
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Dual‑Arm Robot</div><video autoplay loop muted playsinline preload="metadata" aria-label="RoboMantis dual 7‑DOF robot arms with vision‑based grasping"><source src="images/RoboMantis.mp4" type="video/mp4"></video></div></div>
 <div class='paper-box-text' markdown="1">
-**Dual 7‑DOF Robot Arms with YOLOv11‑Seg + FoundationPose Vision‑Based Grasping (RoboMantis)** · *Aug. 2026 – Sep. 2026*
+**Dual 7‑DOF Robot Arms with YOLOv11‑Seg + FoundationPose Vision‑Based Grasping (RoboMantis)** · *Jul. 2026 – Sep. 2026*
 
 **Qinnan Jiang**
 - Built a dual 7‑DOF magnetic‑grasping robotic arm platform with Robstride series motors over CAN bus, including dual‑arm URDF/Xacro modeling and separated **ros2_control** hardware interfaces for left and right manipulator.
