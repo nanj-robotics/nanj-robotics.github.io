@@ -73,6 +73,7 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 - Designed a **peak detection system** for signed numbers on **Xilinx Artix‑7 FPGA** using **VHDL** with RTL‑coding style.
 - Developed an **FSM controller** and two‑way handshaking protocol to synchronize high‑speed FPGA logic with UART communication, ensuring zero data loss.
 - 5‑member team: I co‑developed the Command Processor module (3 members), 2 members handled the Data Processor.
+- Achieved **94.1%** team grade.
 </div></div>
 
 # 🏅 Honors and Awards
