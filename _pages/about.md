@@ -35,7 +35,8 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ROS 2 / Navigation</div><img src='images/geni_rover.jpg' alt="GeniRover autonomous navigation differential‑drive mobile robot" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-**Autonomous Navigation Differential‑Drive Mobile Robot (GeniRover)** · *Jun. 2026 – Jul. 2026*
+**Autonomous Navigation Differential‑Drive Mobile Robot (GeniRover)**
+ · *Jun. 2026 – Jul. 2026*
 
 **Qinnan Jiang**
 - Custom differential‑drive mobile robot supporting in‑place rotation; hardware includes CAN‑bus hub motors, 2D LiDAR, RGB‑D camera, IMU and **GNSS‑RTK** module, deployed on **NVIDIA Jetson AGX Orin**.
@@ -67,6 +68,7 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">FPGA</div><img src='images/fpga_peak_detection.jpg' alt="FPGA peak detection prototyping on Artix‑7" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **FPGA Peak Detection Prototyping (Artix‑7, VHDL)** · *Jan. 2026 – Apr. 2026*
+  
 **Qinnan Jiang**, Sangwon, Yu Chen, Kyan Xu, Yutong Shi
 - Designed a **peak detection system** for signed numbers on **Xilinx Artix‑7 FPGA** using **VHDL** with RTL‑coding style.
 - Developed an **FSM controller** and two‑way handshaking protocol to synchronize high‑speed FPGA logic with UART communication, ensuring zero data loss.
