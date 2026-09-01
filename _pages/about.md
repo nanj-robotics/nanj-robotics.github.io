@@ -27,8 +27,8 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 **Dual 7‑DOF Robot Arms with YOLOv11‑Seg + FoundationPose Vision‑Based Grasping (RoboMantis)** · *Aug. 2026 – Sep. 2026*
   
 **Qinnan Jiang**
-- Built a dual 7‑DOF magnetic‑grasping robotic arm platform with Robstride series motors over CAN bus, including dual‑arm URDF/Xacro modeling and separated **ros2_control** hardware interfaces for left and right manipulator.
-- Implemented vision‑based grasping pipeline: **YOLOv11‑Seg** instance segmentation + **FoundationPose** 6D object pose estimation,  hand‑eye calibration for fixed external RGB‑D camera.
+- Built a dual 7‑DOF magnetic‑grasping robotic arm platform with Robstride series motors over CAN bus, including dual‑arm URDF/Xacro modeling and separated `ros2_control` hardware interfaces for left and right manipulator.
+- Implemented vision‑based grasping pipeline: **YOLOv11‑Seg** instance segmentation + **FoundationPose** 6D object pose estimation, `eye‑on‑base` hand‑eye calibration for fixed external RGB‑D camera.
 - Deployed coordinated dual‑arm motion planning via **MoveIt 2**, developed independent zero‑torque gravity‑compensated controller for each arm supporting kinesthetic teaching and VLA dataset collection.
 </div></div>
 
