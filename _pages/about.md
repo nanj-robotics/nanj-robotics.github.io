@@ -47,12 +47,14 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Reinforcement Learning</div><video autoplay loop muted playsinline preload="metadata" aria-label="Quadruped‑wheeled robot RL locomotion training in Isaac Gym"><source src="images/quadruped_rl.mp4" type="video/mp4"></video></div></div>
 <div class='paper-box-text' markdown="1">
-**RL Locomotion for a Custom Quadruped‑Wheeled Robot (PPO, Isaac Gym)** · *2025 – Present (Ongoing)*
+**RL Locomotion for a Custom Quadruped‑Wheeled Robot (PPO, Isaac Gym)** · *Aug 2025 – Oct 2025*
 
 **Qinnan Jiang**
-- Training a custom **quadruped‑wheeled robot** for robust locomotion using **PPO** in **NVIDIA Isaac Gym**, targeting walking, running, and jumping via sim2real transfer.
 - **Full‑stack development**: SolidWorks assembly modeling → URDF generation → RL training pipeline design → sim2real deployment.
-- Long‑term goal: mount two robotic arms for mobile manipulation; next step: migrate the training pipeline to **Isaac Lab**. Ongoing since 2025, sim2real transfer in progress.
+- Trained a **PPO** locomotion policy in Isaac Gym (4,096 parallel GPU envs), achieving omni-directional locomotion and
+velocity tracking on flat and rough terrain
+- Achieved **1.0 m/s** forward speed, **>95%** velocity-tracking success; converged after **5,000** iterations (~2.0 hours on RTX
+4090).
 </div></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Motor Control</div><video autoplay loop muted playsinline preload="metadata" aria-label="Dual Robstride RS03 motor synchronous control demonstration"><source src="images/dual_motor_sync.mp4" type="video/mp4"></video></div></div>
