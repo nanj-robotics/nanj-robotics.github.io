@@ -13,7 +13,7 @@ I am a robotics engineer focused on **embodied AI**, working across mobile navig
 Beyond real‑robot systems, I am gradually expanding into **Isaac Sim / Isaac Lab**, world models, and vision‑language‑action (VLA) models, working toward broader and more generalizable embodied intelligence.
 I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at the **University of Bristol** (2024–2027), on track for First Class Honours with an average of 80+ and ranking in the **top 1%** of my cohort.
 
-[GitHub](https://github.com/nanj-robotics) · [LinkedIn](https://www.linkedin.com/in/qinnan-j-a13714355/) · [CV](/assets/CV.pdf)
+[GitHub](https://github.com/nanj-robotics) · [LinkedIn](https://www.linkedin.com/in/qinnan-j-a13714355/) · [CV](/assets/Qinnan_CV.pdf)
 
 # 🔥 News
 - *2026.09*: Completed **RoboMantis** — Dual 7‑DOF robotic arms with YOLOv11‑Seg + FoundationPose vision‑based grasping, zero‑torque gravity‑compensated mode for VLA data collection.
