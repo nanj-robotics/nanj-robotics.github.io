@@ -80,7 +80,7 @@ velocity tracking on flat and rough terrain
 </div></div>
 
 # 🏅 Honors and Awards
-- *2024 – Present*: **Top 1%** in EEE cohort, on track for **First Class Honours** (avg 80+), University of Bristol.
+- *2024 – Present*: **Top 1%** in EEE cohort, on track for **First Class Honours** (avg 80%+), University of Bristol.
 
 # 📖 Educations
 - *Sep. 2024 – Jun. 2027 (expected)*: **B.Eng. in Electrical and Electronic Engineering**, University of Bristol, Bristol, UK. **First Class Honours track (avg 80%+).**
