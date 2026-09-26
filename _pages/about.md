@@ -54,7 +54,7 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 - **Full‑stack development**: SolidWorks assembly modeling → URDF generation → RL training pipeline design → sim2real deployment.
 - Trained a **PPO** locomotion policy in Isaac Gym (4,096 parallel GPU envs), achieving omni-directional locomotion and
 velocity tracking on flat and rough terrain
-- Achieved **1.0 m/s** forward speed, **>95%** velocity-tracking success; converged after **5,000** iterations (~2.0 hours on RTX
+- Achieved **1.0 m/s** forward speed, **>95%** velocity-tracking success; converged after **5,000** iterations (~4 hours on RTX
 4090).
 </div></div>
 
