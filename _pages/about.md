@@ -9,7 +9,7 @@ redirect_from:
 ---
 <span class='anchor' id='about-me'></span>
 # Robotics & Autonomous Systems Engineer
-I am a robotics engineer focused on **embodied AI**, working across mobile navigation, robot manipulation, visual perception, reinforcement learning. My projects are built on the **ROS2** (**SLAM / Nav2**, **MoveIt2**), with visual perception (**YOLOv11-Seg**, **FoundationPose**) and reinforcement learning (**Isaac Gym**, **PPO**) for locomotion.
+I am a robotics engineer focused on **Physical AI**, working across mobile navigation, robot manipulation, visual perception, reinforcement learning. My projects are built on the **ROS2** (**SLAM / Nav2**, **MoveIt2**), with visual perception (**YOLOv11-Seg**, **FoundationPose**) and reinforcement learning (**Isaac Gym**, **PPO**) for locomotion.
 Beyond real‑robot systems, I am gradually expanding into **Isaac Sim / Isaac Lab**, world models, and vision‑language‑action (VLA) models, working toward broader and more generalizable embodied intelligence.
 I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at the **University of Bristol** (2024–2027), on track for First Class Honours with an average of 80%+.
 
