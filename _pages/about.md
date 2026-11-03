@@ -9,15 +9,15 @@ redirect_from:
 ---
 <span class='anchor' id='about-me'></span>
 # Robotics & Autonomous Systems Engineer
-I am a robotics engineer focused on **Physical AI**, working across mobile navigation, robot manipulation, visual perception, reinforcement learning. My projects are built on the **ROS2** (**SLAM / Nav2**, **MoveIt2**), with visual perception (**YOLOv11-Seg**, **FoundationPose**) and reinforcement learning (**Isaac Gym**, **PPO**) for locomotion.
+I am a robotics engineer focused on **Physical AI**, working across mobile navigation, robot manipulation, visual perception, reinforcement learning. My projects are built on the **ROS 2** (**SLAM / Nav2**, **MoveIt2**), with visual perception (**YOLOv11-Seg**, **FoundationPose**) and reinforcement learning (**Isaac Gym**, **PPO**) for locomotion.
 Beyond real‑robot systems, I am gradually expanding into **Isaac Sim / Isaac Lab**, world models, and vision‑language‑action (VLA) models, working toward broader and more generalizable embodied intelligence.
 I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at the **University of Bristol** (2024–2027), on track for First Class Honours with an average of 80%+.
 
 [GitHub](https://github.com/nanj-robotics) · [LinkedIn](https://www.linkedin.com/in/qinnan-j-a13714355/) · [CV](/assets/Qinnan_CV.pdf)
 
 # 🔥 News
-- *2026.09*: Completed **RoboMantis** — Dual 7‑DOF robotic arms with YOLOv11‑Seg + FoundationPose vision‑based grasping, zero‑torque gravity‑compensated mode for VLA data collection.
-- *2026.08*: Completed **GeniCraner** — 7‑DOF robot arm with YOLOv11‑Seg + FoundationPose vision‑based grasping, including zero‑torque mode for VLA data collection.
+- *2026.09*: Completed **RoboMantis** — Dual 7‑DOF robotic arms with YOLOv11‑Seg + FoundationPose vision‑based grasping, zero‑torque gravity‑compensated mode supporting for future VLA data collection.
+- *2026.08*: Completed **GeniCraner** — 7‑DOF robot arm with YOLOv11‑Seg + FoundationPose vision‑based grasping, including zero‑torque mode supporting for future VLA data collection.
 - *2026.08*: Released **dual_motor_sync** — dual Robstride RS03 motor synchronous control over CAN, achieving **0.01°** synchronization error.
 - *2026.07*: Completed **GeniRover** — differential‑drive mobile robot with GNSS‑RTK, MPPI local planner, iteratively field‑tested in outdoor environments with promising real‑world navigation results, deployed on NVIDIA Jetson AGX Orin.
 - *2026.04*: Completed FPGA peak detection prototyping project at the University of Bristol.
@@ -31,7 +31,7 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
 **Qinnan Jiang**
 - Built a dual 7‑DOF magnetic‑grasping robotic arm platform with Robstride series motors over CAN bus, including dual‑arm URDF/Xacro modeling and separated **ros2_control** hardware interfaces for left and right manipulator.
 - Implemented vision‑based grasping pipeline: **YOLOv11‑Seg** instance segmentation + **FoundationPose** 6D object pose estimation, hand‑eye calibration for fixed external RGB‑D camera.
-- Deployed coordinated dual‑arm motion planning via **MoveIt2**, developed independent zero‑torque gravity‑compensated controller for each arm supporting kinesthetic teaching and VLA dataset collection.
+- Deployed coordinated dual‑arm motion planning via **MoveIt 2**, developed independent zero‑torque gravity‑compensated controller for each arm supporting kinesthetic teaching and VLA dataset collection.
 </div></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ROS 2 / Navigation</div><img src='images/geni_rover.jpg' alt="GeniRover autonomous navigation differential‑drive mobile robot" width="100%"></div></div>
@@ -40,22 +40,21 @@ I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at
  · *Jun. 2026 – Jul. 2026*
 
 **Qinnan Jiang**
-- Custom differential‑drive mobile robot supporting in‑place rotation; hardware includes CAN‑bus hub motors, 2D LiDAR, RGB‑D camera, IMU and **GNSS‑RTK** module, deployed on **NVIDIA Jetson AGX Orin**.
-- Implemented complete ROS2 navigation stack: **SLAM Toolbox** mapping, Nav2 with AMCL localization, and **MPPI** as local planner. 
-- Fused wheel odometry, IMU and RTK pose data through **robot_localization EKF** to generate stable robot base state estimation.
-- Conducted iterative field tests in outdoor unstructured environments, obtained promising real‑world navigation performance. Supports manual tele‑op, map‑based autonomous navigation and dynamic obstacle avoidance.
+- Developed a custom differential-drive mobile robot supporting in-place rotation, equipped with CAN-bus hub motors, 2D LiDAR, RGB-D camera, IMU and GNSS-RTK module, deployed on **NVIDIA Jetson AGX Orin**.
+- Implemented a complete **ROS 2 navigation stack**, including **SLAM Toolbox** for mapping, **AMCL** for localisation and **Nav2 MPPI** for local planning.
+- Designed a **dual-EKF sensor fusion** architecture integrating wheel odometry, IMU, LiDAR and RTK GNSS for centimetre-level outdoor localisation.
+- Implemented **RGB-D 3D obstacle avoidance** using **nvblox ESDF costmap**. Conducted iterative field tests in outdoor environments, improving dynamic navigation success from **60% to 85%**.
 </div></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Reinforcement Learning</div><video autoplay loop muted playsinline preload="metadata" aria-label="Quadruped‑wheeled robot RL locomotion training in Isaac Gym"><source src="images/quadruped_rl.mp4" type="video/mp4"></video></div></div>
 <div class='paper-box-text' markdown="1">
-**RL Locomotion for a Custom Quadruped‑Wheeled Robot (PPO, Isaac Gym)** · *Aug 2025 – Oct 2025*
+**RL Locomotion for a Custom Quadruped‑Wheeled Robot (PPO, Isaac Gym)** · *Jul 2025 – Sep 2025*
 
 **Qinnan Jiang**
 - **Full‑stack development**: SolidWorks assembly modeling → URDF generation → RL training pipeline design → sim2real deployment.
 - Trained a **PPO** locomotion policy in Isaac Gym (4,096 parallel GPU envs), achieving omni-directional locomotion and
 velocity tracking on flat and rough terrain
-- Achieved **1.0 m/s** forward speed, **>95%** velocity-tracking success; converged after **5,000** iterations (~4 hours on RTX
-4090).
+- Achieved **1.0 m/s** forward speed, **>95%** velocity-tracking success; converged after **5,000** iterations.
 </div></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Motor Control</div><video autoplay loop muted playsinline preload="metadata" aria-label="Dual Robstride RS03 motor synchronous control demonstration"><source src="images/dual_motor_sync.mp4" type="video/mp4"></video></div></div>
@@ -63,7 +62,7 @@ velocity tracking on flat and rough terrain
 **Dual Motor Synchronous Control for High‑Load Robotic Mechanisms** · *Aug. 2026*
 
 **Qinnan Jiang**
-- Built a ROS2 C++ package for precise mirrored synchronization of two **Robstride RS03** motors over CAN bus for high‑load dual‑motor joints.
+- Built a ROS 2 C++ package for precise mirrored synchronization of two **Robstride RS03** motors over CAN bus for high‑load dual‑motor joints.
 - Implemented **cosine trajectory planning** with 500 Hz CAN transmission in MIT PD torque mode, achieving **0.01°** synchronization error.
 - Eliminated torque interruption for seamless motion sequences; fully configurable via command‑line arguments.
 </div></div>
