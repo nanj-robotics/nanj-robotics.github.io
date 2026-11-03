@@ -9,28 +9,28 @@ redirect_from:
 ---
 <span class='anchor' id='about-me'></span>
 # Robotics & Autonomous Systems Engineer
-I am a robotics engineer focused on **Physical AI**, working across mobile navigation, robot manipulation, visual perception, reinforcement learning. My projects are built on the **ROS 2** (**SLAM / Nav2**, **MoveIt2**), with visual perception (**YOLOv11-Seg**, **FoundationPose**) and reinforcement learning (**Isaac Gym**, **PPO**) for locomotion.
+I am a robotics engineer focused on **Physical AI**, working across mobile navigation, robot manipulation, visual perception, reinforcement learning. My projects are built on the **ROS 2** (**SLAM / Nav2**, **MoveIt 2**), with visual perception (**YOLOv11-Seg**, **FoundationPose**) and reinforcement learning (**Isaac Gym**, **PPO**) for locomotion.
 Beyond real‑robot systems, I am gradually expanding into **Isaac Sim / Isaac Lab**, world models, and vision‑language‑action (VLA) models, working toward broader and more generalizable embodied intelligence.
 I am currently pursuing a **B.Eng. in Electrical and Electronic Engineering** at the **University of Bristol** (2024–2027), on track for First Class Honours with an average of 80%+.
 
 [GitHub](https://github.com/nanj-robotics) · [LinkedIn](https://www.linkedin.com/in/qinnan-j-a13714355/) · [CV](/assets/Qinnan_CV.pdf)
 
 # 🔥 News
-- *2026.09*: Completed **RoboMantis** — Dual 7‑DOF robotic arms with YOLOv11‑Seg + FoundationPose vision‑based grasping, zero‑torque gravity‑compensated mode supporting for future VLA data collection.
-- *2026.08*: Completed **GeniCraner** — 7‑DOF robot arm with YOLOv11‑Seg + FoundationPose vision‑based grasping, including zero‑torque mode supporting for future VLA data collection.
+- *2026.09*: Completed **RoboMantis** — Dual 7‑DOF robotic arms with YOLOv11‑Seg + FoundationPose vision‑guided grasping, zero‑torque gravity‑compensated mode supporting for future VLA data collection.
+- *2026.08*: Completed **GeniCraner** — 7‑DOF robot arm with YOLOv11‑Seg + FoundationPose vision‑guided grasping, including zero‑torque mode supporting for future VLA data collection.
 - *2026.08*: Released **dual_motor_sync** — dual Robstride RS03 motor synchronous control over CAN, achieving **0.01°** synchronization error.
 - *2026.07*: Completed **GeniRover** — differential‑drive mobile robot with GNSS‑RTK, MPPI local planner, iteratively field‑tested in outdoor environments with promising real‑world navigation results, deployed on NVIDIA Jetson AGX Orin.
 - *2026.04*: Completed FPGA peak detection prototyping project at the University of Bristol.
-- *2024.09*: Enrolled in the University of Bristol, School of Electrical, Electronic and Mechanical Engineering.
+- *2024.09*: Enrolled in the University of Bristol, School of Electrical, Electronic and Mechanical Engineering (EEME).
 
 # 📝 Selected Projects
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Dual‑Arm Robot</div><video autoplay loop muted playsinline preload="metadata" aria-label="RoboMantis dual 7‑DOF robot arms with vision‑based grasping"><source src="images/RoboMantis.mp4" type="video/mp4"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Dual‑Arm Robot</div><video autoplay loop muted playsinline preload="metadata" aria-label="RoboMantis dual 7‑DOF robot arms with vision‑guided grasping"><source src="images/RoboMantis.mp4" type="video/mp4"></video></div></div>
 <div class='paper-box-text' markdown="1">
-**Dual 7‑DOF Robot Arms with YOLOv11‑Seg + FoundationPose Vision‑Based Grasping (RoboMantis)** · *Jul. 2026 – Sep. 2026*
+**Dual-arm manipulator with YOLOv11‑Seg + FoundationPose Vision‑guided Grasping (RoboMantis)** · *Jul. 2026 – Sep. 2026*
 
 **Qinnan Jiang**
 - Built a dual 7‑DOF magnetic‑grasping robotic arm platform with Robstride series motors over CAN bus, including dual‑arm URDF/Xacro modeling and separated **ros2_control** hardware interfaces for left and right manipulator.
-- Implemented vision‑based grasping pipeline: **YOLOv11‑Seg** instance segmentation + **FoundationPose** 6D object pose estimation, hand‑eye calibration for fixed external RGB‑D camera.
+- Implemented vision‑guided grasping pipeline: **YOLOv11‑Seg** instance segmentation + **FoundationPose** 6D object pose estimation, hand‑eye calibration for fixed external RGB‑D camera.
 - Deployed coordinated dual‑arm motion planning via **MoveIt 2**, developed independent zero‑torque gravity‑compensated controller for each arm supporting kinesthetic teaching and VLA dataset collection.
 </div></div>
 
